@@ -41,5 +41,17 @@
     "> 1%",
     "last 2 versions",
     "not dead"
-  ]
+  ],
+  "description": "[![Netlify Status](https://api.netlify.com/api/v1/badges/0b09dce9-9cd7-45ff-9eca-1ab059a51ec7/deploy-status)](https://app.netlify.com/sites/webinar-vue-spa/deploys)",
+  "main": "babel.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fransiscusrolandamalau/webinar-spa-vue.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fransiscusrolandamalau/webinar-spa-vue/issues"
+  },
+  "homepage": "https://github.com/fransiscusrolandamalau/webinar-spa-vue#readme"
 }
