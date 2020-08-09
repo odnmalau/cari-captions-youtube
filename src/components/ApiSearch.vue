@@ -67,8 +67,9 @@
         <div>
           <span
             class="rounded-lg bg-orange-200 text-orange-600 text-xs px-2 py-1"
-            >{{ pagination.total }}</span
           >
+            {{ pagination.total }}
+          </span>
         </div>
       </div>
       <div class="bg-white py-0 rounded-t flex">
@@ -78,8 +79,9 @@
         <div>
           <span
             class="rounded-lg bg-orange-200 text-orange-600 text-xs px-2 py-1"
-            >{{ pagination.page }}</span
           >
+            {{ pagination.page }}
+          </span>
         </div>
       </div>
       <div class="rounded-b text-sm bg-white">
@@ -101,7 +103,8 @@
 </template>
 
 <script>
-const pDebounce = require("p-debounce");
+import pDebounce from "p-debounce";
+
 export default {
   data: function() {
     return {
@@ -146,7 +149,7 @@ export default {
         this.pagination.total = respon.total;
         this.pagination.page = respon.page;
       } catch (error) {
-        console.log();
+        console.log(error);
       }
     },
     async navigasi(type) {
