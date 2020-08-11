@@ -6,8 +6,6 @@
 
 ```bash
 npm install
-# or
-yarn add
 ```
 
 ## License
